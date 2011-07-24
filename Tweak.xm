@@ -7,6 +7,7 @@
 static BOOL waitingForAnswer;
 static BOOL lockScreen;
 static NSInteger answer;
+static UIWindow *window1;
 
 + (void)stopPlayingAlertSoundOrRingtone
 {
